@@ -31,8 +31,6 @@ function greetingsWorking(){
       displayGreeting.innerHTML = languageGreeting +' ' + "";
     }
 
-
-
     if(everyName == ""){
       displayGreeting.innerHTML = "Please Enter Your Name!"
     }
