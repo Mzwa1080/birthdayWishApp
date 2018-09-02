@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Birthday Wish App</title>
+  </head>
+  <body>
+    <div class="col s12 m2 container z-depth-5">
+      <h2 class="center  s12 m2 ">Birthday Wish App</h2>
+      <div class="row">
+        <div class="col s12 m12 center">
+
+          <!-- <span class="col s12 m2">Name</span> -->
+          <i class="material-icons prefix">account_circle</i>
+          <input type="text" name="textInput" placeholder="Enter Name" class="col-3 center textInput " value="">
+          <span> <small class="">counter:</small></span> <span class="counter">0</span>
+          <button type="button" name="button" class="btn waves-effect  deep-orange darken-3 greetButton">Greet</button>
+          <button type="button" name="button" class="btn waves-effect  deep-orange darken-3 clear">Clear</button>
+        </div>
+      </div>
+
+
+
+      <br>
+      <div class="row">
+
+        <div class=" center ">
+          <form class="#" action="index.html" method="post">
+            <p>
+              <label>
+                <input name="languageRadio" type="radio" class="languageRadio deep-orange darken-3" value="English" />
+                <span>English</span>
+              </label>
+            </p>
+
+            <p>
+              <label>
+                <input name="languageRadio" type="radio"class="languageRadio deep-orange darken-3"  value="Isixhosa" />
+                <span>Isixhosa</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="languageRadio" type="radio" class="languageRadio deep-orange darken-3" value="Afrikaans" />
+                <span>Afrikaans</span>
+              </label>
+            </p>
+          </form>
+
+
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <br>
+      <div class="">
+        <h5 class="displayGreeting center"></h5>
+      </div>
+      <div class="footer-copyright blue-grey darken-2">
+          <div class=" center container">
+                    <h6 class=""> © 2018 Mzwamadoda Louw TheDesigner </h6>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+    <script src="js/greet.js" charset="utf-8"></script>
+    <script src="js/greet-dom.js" charset="utf-8"></script>
+
+</html>
